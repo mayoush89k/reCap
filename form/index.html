@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <main id="main-container" class="flexed">
+      <section id="container1">
+        <h1>General Information</h1>
+        <form action="general-information">
+          <select>
+            <option value="title" selected disabled>Title</option>
+            <option value="title1">Title1</option>
+            <option value="title2">Title2</option>
+            <option value="title3">Title3</option>
+          </select>
+          <section class="flexed">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+          </section>
+          <select name="position" id="">
+            <option value="position" selected disabled>Position</option>
+            <option value="position1">Position1</option>
+            <option value="position2">Position2</option>
+            <option value="position3">Position3</option>
+          </select>
+          <section><input type="text" placeholder="Company" /></section>
+          <section>
+            <input type="text" placeholder="Business Arena" />
+            <select name="employees" id="">
+              <option value="employee" selected disabled>Employee</option>
+              <option value="employee1">Employee1</option>
+              <option value="employee2">Employee2</option>
+              <option value="employee3">Employee3</option>
+            </select>
+          </section>
+        </form>
+      </section>
+      <section id="container2">
+        <h1>Contact Details</h1>
+        <form action="contact-details">
+          <input type="text" placeholder="Street + Nr" />
+          <input type="text" placeholder="Additional Information" />
+          <section class="flexed">
+            <input type="text" placeholder="Zip Code" />
+            <select name="place">
+              <option value="place" selected disabled>Place</option>
+              <option value="place1">Place1</option>
+              <option value="place2">Place2</option>
+              <option value="place3">Place3</option>
+            </select>
+          </section>
+          <select name="country">
+            <option value="country" selected disabled>Place</option>
+            <option value="country1">Country1</option>
+            <option value="country2">Country2</option>
+            <option value="country3">Country3</option>
+          </select>
+          <section class="flexed">
+            <input type="text" placeholder="Code +" />
+            <input
+            type="text"
+            placeholder="Phone Number"
+            />
+        </section>
+        <input type="email" placeholder="Your Email" />
+        <section class="flexed">
+            <input type="checkbox" name="confirm" id="confirm">
+            <label for="confirm">I do accept the <u>Terms and Conditions</u> of your site.</label>
+        </section>
+        <button type="submit">Register Badge</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
