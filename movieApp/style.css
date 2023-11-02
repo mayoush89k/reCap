@@ -1,0 +1,75 @@
+body {
+  max-width: 80%;
+  margin: auto;
+}
+
+.movie-row {
+  display: flex;
+  flex-direction: row;
+}
+.movie-box {
+  width: calc(100% / 5);
+  padding: 10px;
+  margin: 10px;
+  height: 450px;
+  box-shadow: 10px 10px 10px gray;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+}
+
+/* form */
+.form-box {
+  display: none;
+}
+form {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+input,
+label,
+.submit {
+  padding: 10px;
+  margin: 1px auto;
+  width: 80%;
+}
+
+.submit {
+  width: 50%;
+  margin: 10px auto;
+}
+#add {
+  padding: 5px;
+  width: 10%;
+}
+
+.remove{
+    position: absolute;
+    margin: 20px;
+    padding: 5px;
+    bottom: -10px;
+    border-radius: 10px;
+}
+
+/* search */
+#search{
+    display: flex;
+    flex-direction: row;
+}
+
+/* update */
+.update{
+    position: absolute;
+    top: 10px;
+    width: 300px;
+    background-color: beige;
+    left: 500px;
+    padding: 30px;
+}

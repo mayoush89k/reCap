@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Movie List</title>
+  </head>
+  <body>
+    <section id="search">
+        <input type="text" id="search-input" placeholder="Search">
+    </section>
+    <section class="form-box">
+      <form id="form" action="addMovie">
+        <label for="title">Title: </label>
+        <input type="text" placeholder="Movie Title" name="title" id="title" />
+        <label for="imgLink">Image Link: </label>
+        <input
+          type="text"
+          placeholder="Image Link"
+          name="imgLink"
+          id="imgLink"
+        />
+        <label for="director">Director: </label>
+        <input
+          type="text"
+          placeholder="Movie Director"
+          name="director"
+          id="director"
+        />
+        <label for="title">Rating: </label>
+        <input
+          type="number"
+          placeholder="Movie Rating"
+          name="rating"
+          id="rating"
+        />
+        <label for="title">Genre: </label>
+        <input
+          type="text"
+          placeholder="Movie Genre"
+          name="genre"
+          id="genre"
+        />
+        <label for="title">Release Year: </label>
+        <input type="number" placeholder="Release Year" name="year" id="year" />
+        <button type="submit" class="submit">Add Movie</button>
+      </form>
+    </section>
+    <section>
+        <section id="main-container">
+            <section class="movie-row" id="movie-row0"></section>
+        </section>
+    </section>
+    <button id="add">Add New Movie</button>
+
+  </body>
+</html>
